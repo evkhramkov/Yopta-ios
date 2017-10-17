@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		898DEBF71F96545B00259F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEBF61F96545B00259F14 /* AppDelegate.swift */; };
+		898DEBF91F96545B00259F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEBF81F96545B00259F14 /* ViewController.swift */; };
+		898DEBFC1F96545B00259F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898DEBFA1F96545B00259F14 /* Main.storyboard */; };
+		898DEBFE1F96545B00259F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898DEBFD1F96545B00259F14 /* Assets.xcassets */; };
+		898DEC011F96545B00259F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898DEBFF1F96545B00259F14 /* LaunchScreen.storyboard */; };
+		898DEC0C1F96545B00259F14 /* YoptaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEC0B1F96545B00259F14 /* YoptaTests.swift */; };
+		898DEC171F96545B00259F14 /* YoptaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DEC161F96545B00259F14 /* YoptaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898DEC081F96545B00259F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898DEBEB1F96545B00259F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898DEBF21F96545B00259F14;
+			remoteInfo = Yopta;
+		};
+		898DEC131F96545B00259F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898DEBEB1F96545B00259F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898DEBF21F96545B00259F14;
+			remoteInfo = Yopta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		898DEBF31F96545B00259F14 /* Yopta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yopta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898DEBF61F96545B00259F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		898DEBF81F96545B00259F14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		898DEBFB1F96545B00259F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898DEBFD1F96545B00259F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898DEC001F96545B00259F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		898DEC021F96545B00259F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898DEC071F96545B00259F14 /* YoptaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoptaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898DEC0B1F96545B00259F14 /* YoptaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoptaTests.swift; sourceTree = "<group>"; };
+		898DEC0D1F96545B00259F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898DEC121F96545B00259F14 /* YoptaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoptaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898DEC161F96545B00259F14 /* YoptaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoptaUITests.swift; sourceTree = "<group>"; };
+		898DEC181F96545B00259F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898DEBF01F96545B00259F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898DEC041F96545B00259F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898DEC0F1F96545B00259F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898DEBEA1F96545B00259F14 = {
+			isa = PBXGroup;
+			children = (
+				898DEBF51F96545B00259F14 /* Yopta */,
+				898DEC0A1F96545B00259F14 /* YoptaTests */,
+				898DEC151F96545B00259F14 /* YoptaUITests */,
+				898DEBF41F96545B00259F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898DEBF41F96545B00259F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898DEBF31F96545B00259F14 /* Yopta.app */,
+				898DEC071F96545B00259F14 /* YoptaTests.xctest */,
+				898DEC121F96545B00259F14 /* YoptaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898DEBF51F96545B00259F14 /* Yopta */ = {
+			isa = PBXGroup;
+			children = (
+				898DEBF61F96545B00259F14 /* AppDelegate.swift */,
+				898DEBF81F96545B00259F14 /* ViewController.swift */,
+				898DEBFA1F96545B00259F14 /* Main.storyboard */,
+				898DEBFD1F96545B00259F14 /* Assets.xcassets */,
+				898DEBFF1F96545B00259F14 /* LaunchScreen.storyboard */,
+				898DEC021F96545B00259F14 /* Info.plist */,
+			);
+			path = Yopta;
+			sourceTree = "<group>";
+		};
+		898DEC0A1F96545B00259F14 /* YoptaTests */ = {
+			isa = PBXGroup;
+			children = (
+				898DEC0B1F96545B00259F14 /* YoptaTests.swift */,
+				898DEC0D1F96545B00259F14 /* Info.plist */,
+			);
+			path = YoptaTests;
+			sourceTree = "<group>";
+		};
+		898DEC151F96545B00259F14 /* YoptaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				898DEC161F96545B00259F14 /* YoptaUITests.swift */,
+				898DEC181F96545B00259F14 /* Info.plist */,
+			);
+			path = YoptaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898DEBF21F96545B00259F14 /* Yopta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898DEC1B1F96545B00259F14 /* Build configuration list for PBXNativeTarget "Yopta" */;
+			buildPhases = (
+				898DEBEF1F96545B00259F14 /* Sources */,
+				898DEBF01F96545B00259F14 /* Frameworks */,
+				898DEBF11F96545B00259F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yopta;
+			productName = Yopta;
+			productReference = 898DEBF31F96545B00259F14 /* Yopta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898DEC061F96545B00259F14 /* YoptaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898DEC1E1F96545B00259F14 /* Build configuration list for PBXNativeTarget "YoptaTests" */;
+			buildPhases = (
+				898DEC031F96545B00259F14 /* Sources */,
+				898DEC041F96545B00259F14 /* Frameworks */,
+				898DEC051F96545B00259F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898DEC091F96545B00259F14 /* PBXTargetDependency */,
+			);
+			name = YoptaTests;
+			productName = YoptaTests;
+			productReference = 898DEC071F96545B00259F14 /* YoptaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		898DEC111F96545B00259F14 /* YoptaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898DEC211F96545B00259F14 /* Build configuration list for PBXNativeTarget "YoptaUITests" */;
+			buildPhases = (
+				898DEC0E1F96545B00259F14 /* Sources */,
+				898DEC0F1F96545B00259F14 /* Frameworks */,
+				898DEC101F96545B00259F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898DEC141F96545B00259F14 /* PBXTargetDependency */,
+			);
+			name = YoptaUITests;
+			productName = YoptaUITests;
+			productReference = 898DEC121F96545B00259F14 /* YoptaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898DEBEB1F96545B00259F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ewgenius;
+				TargetAttributes = {
+					898DEBF21F96545B00259F14 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					898DEC061F96545B00259F14 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 898DEBF21F96545B00259F14;
+					};
+					898DEC111F96545B00259F14 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 898DEBF21F96545B00259F14;
+					};
+				};
+			};
+			buildConfigurationList = 898DEBEE1F96545B00259F14 /* Build configuration list for PBXProject "Yopta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898DEBEA1F96545B00259F14;
+			productRefGroup = 898DEBF41F96545B00259F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898DEBF21F96545B00259F14 /* Yopta */,
+				898DEC061F96545B00259F14 /* YoptaTests */,
+				898DEC111F96545B00259F14 /* YoptaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898DEBF11F96545B00259F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898DEC011F96545B00259F14 /* LaunchScreen.storyboard in Resources */,
+				898DEBFE1F96545B00259F14 /* Assets.xcassets in Resources */,
+				898DEBFC1F96545B00259F14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898DEC051F96545B00259F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898DEC101F96545B00259F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898DEBEF1F96545B00259F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898DEBF91F96545B00259F14 /* ViewController.swift in Sources */,
+				898DEBF71F96545B00259F14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898DEC031F96545B00259F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898DEC0C1F96545B00259F14 /* YoptaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898DEC0E1F96545B00259F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898DEC171F96545B00259F14 /* YoptaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898DEC091F96545B00259F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898DEBF21F96545B00259F14 /* Yopta */;
+			targetProxy = 898DEC081F96545B00259F14 /* PBXContainerItemProxy */;
+		};
+		898DEC141F96545B00259F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898DEBF21F96545B00259F14 /* Yopta */;
+			targetProxy = 898DEC131F96545B00259F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		898DEBFA1F96545B00259F14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898DEBFB1F96545B00259F14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898DEBFF1F96545B00259F14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898DEC001F96545B00259F14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898DEC191F96545B00259F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		898DEC1A1F96545B00259F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898DEC1C1F96545B00259F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
+				INFOPLIST_FILE = Yopta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.yopta.Yopta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		898DEC1D1F96545B00259F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
+				INFOPLIST_FILE = Yopta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.yopta.Yopta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		898DEC1F1F96545B00259F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
+				INFOPLIST_FILE = YoptaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.yopta.YoptaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yopta.app/Yopta";
+			};
+			name = Debug;
+		};
+		898DEC201F96545B00259F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
+				INFOPLIST_FILE = YoptaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.yopta.YoptaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yopta.app/Yopta";
+			};
+			name = Release;
+		};
+		898DEC221F96545B00259F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
+				INFOPLIST_FILE = YoptaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.yopta.YoptaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yopta;
+			};
+			name = Debug;
+		};
+		898DEC231F96545B00259F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2L8TU8NEV;
+				INFOPLIST_FILE = YoptaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewgenius.yopta.YoptaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yopta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898DEBEE1F96545B00259F14 /* Build configuration list for PBXProject "Yopta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898DEC191F96545B00259F14 /* Debug */,
+				898DEC1A1F96545B00259F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898DEC1B1F96545B00259F14 /* Build configuration list for PBXNativeTarget "Yopta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898DEC1C1F96545B00259F14 /* Debug */,
+				898DEC1D1F96545B00259F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898DEC1E1F96545B00259F14 /* Build configuration list for PBXNativeTarget "YoptaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898DEC1F1F96545B00259F14 /* Debug */,
+				898DEC201F96545B00259F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898DEC211F96545B00259F14 /* Build configuration list for PBXNativeTarget "YoptaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898DEC221F96545B00259F14 /* Debug */,
+				898DEC231F96545B00259F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898DEBEB1F96545B00259F14 /* Project object */;
+}
